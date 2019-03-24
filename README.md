@@ -1,1 +1,4 @@
 # Kohonen-Self-Organizing-Maps
+
+
+Our goal is using self-organizing map (SOM) to find classes in unlabeled data and then classify the data into the discovered classes. SOM is a two layer network with no feedback. With this structure the conventional repeated learning procedure is modified to learn just once. The once learning manner is more similar to human learning and memorizing activities. During training, weight updating is managed through a sequence of operations among some transformation and operation matrix. Every connection between neurons of input/output layers is considered as a independent processes. In this way all elements of the Euclidean distance matrix and weight matrix are calculated. The big idea is that similar data produce excitations in geometrically nearby output node in a trained network, and hence are mapped so that relations between them can be inferred from geometry of output nodes.
